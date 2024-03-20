@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+main {
+	width: 80%;
+	max-width: 1000px;
+	margin: 4% auto;
+}
+main h1 {
+    margin: 0 23%;
+}
+img {
+    width: 100%;
+}
+.kiv {
+    background-color: antiquewhite;
+}
+.tartalom {
+    margin: 0% 25%;    
+}
+th, td {
+    border-bottom: 1px solid black;
+}
+.kepek {
+    display: flex;
+    flex-flow: row wrap;
+}
+.kepek div {
+    width: 250px;
+    margin: 10px;
+    justify-content: space-between;
+
+}
